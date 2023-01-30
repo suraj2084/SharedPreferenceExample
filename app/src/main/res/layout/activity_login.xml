@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shared Preferences"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_margin="11dp"
+        android:textColor="#E91E63"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:padding="11dp"
+        android:layout_margin="11dp"
+        android:textSize="11sp"
+        android:id="@+id/txtEmail"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:padding="11dp"
+        android:layout_margin="11dp"
+        android:textSize="11sp"
+        android:id="@+id/txtPassword"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:layout_margin="11dp"
+        android:text="Login"
+        android:id="@+id/Login"
+        android:background="#03A9F4"/>
+</LinearLayout>
